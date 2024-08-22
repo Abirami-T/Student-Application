@@ -10,7 +10,7 @@ public class studentClass {
         Connection con = null;
         try {
             // Establish connection
-            con = DriverManager.getConnection("jdbc:mysql://localhost:3306/studentdb", "root", "Abirami@0202");
+            con = DriverManager.getConnection("jdbc:mysql://localhost:3306/studentdb", "root", "****");
             System.out.println("Connected to the database!");
 
             // Create table if not exists
